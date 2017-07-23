@@ -113,6 +113,7 @@ footer {
 
 .sidebar {
   padding: 30px;
+  margin-left: 8.33%;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
@@ -149,6 +150,10 @@ footer {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
+}
+
+[class*="col-"] {
+  float: left;
 }
 
 .col-1 {width: 8.33%;}
@@ -252,9 +257,31 @@ input[type=submit] {
     background-color: green;
     background-image: none;
   }
+  .container {
+  width: 100%;
+  max-width: 768px;
+  }
   .auth-image {
   float: none;
   width: 100%;
+  }
+  .main-section {
+  margin-left: 25px;
+  margin-right: 0px;
+  }
+  #logo {
+    margin-left: 25px;
+  }
+  .social{
+    width: 30%;
+    height: auto;
+  }
+  .col-8 {
+  width: 58.33%;
+  }
+  .sidebar {
+  margin-right: 0px;
+  float: right;
   }
 }
 
@@ -267,6 +294,14 @@ input[type=submit] {
   float: left;
   width: 200px;
   height: auto;
+  }
+  .main-section {
+  margin-right: 25px;
+  width: 100%
+}
+  .sidebar {
+    float: left;
+    width: 100%
   }
 }
 
@@ -282,10 +317,8 @@ input[type=submit] {
     max-width: none;
   }
   #logo {
+    margin-left: 0;
     width: 100%;
-  }
-  .sidebar {
-  float: left;
   }
   .auth-image {
   float: none;
