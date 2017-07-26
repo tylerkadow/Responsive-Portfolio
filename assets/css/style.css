@@ -174,7 +174,7 @@ footer {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 265px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -253,10 +253,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
-  body {
-    background-color: green;
-    background-image: none;
-  }
+
   .container {
   width: 100%;
   max-width: 768px;
@@ -283,38 +280,38 @@ input[type=submit] {
   margin-right: 0px;
   float: right;
   }
+.work {
+  width: 100%;
 }
 
 @media screen and (max-width: 768px){
-  body {
-    background-color: yellow;
-    background-image: none;
-  }
+
 .auth-image {
   float: left;
   width: 200px;
   height: auto;
   }
   .main-section {
-  margin-right: 25px;
-  width: 100%
-}
-  .sidebar {
-    float: left;
-    width: 100%
+  width: 640px;
+  }
+.col-4,
+.col-8 {
+  float: none;
+  }
+  .sidebar{
+    width: 640px;
+    float: none;
   }
 }
 
 @media screen and (max-width: 640px){
-  body {
-    background-color: red;
-    background-image: none;
-  }
+
   #masthead {
     position: static;
   }
-  .container {
-    max-width: none;
+  .main-section {
+    margin-top: -135px;
+    width: 460px;
   }
   #logo {
     margin-left: 0;
@@ -323,6 +320,9 @@ input[type=submit] {
   .auth-image {
   float: none;
   width: 100%;
+  }
+  .sidebar{
+    width: 440px;
   }
 nav {
   float: none;
@@ -333,9 +333,9 @@ nav a {
   padding: 20px;
   }
 
-  /*Portfolio*/
+  /*Portfolio
   .work {
     width: 100%;
     height: auto;
-  }
+  }*/
 }
